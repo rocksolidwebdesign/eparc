@@ -2,7 +2,7 @@
 
 `eparc`
 
-an *E*xpression *PAR*ser *C*compiler written in *C*
+an **E**xpression **PAR**ser **C**compiler written in **C**
 
 An LL(1) recursive decent parser for arithmetic expressions.
 
