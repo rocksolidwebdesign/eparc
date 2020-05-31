@@ -1,0 +1,19 @@
+myc_setup_test(
+  "parse"
+  MYC_SOURCES
+    "parse.c"
+  MYC_DEPS
+    "parser"
+  MYC_DEFS
+    "MYC_DEBUG_ENABLE=1"
+)
+
+myc_setup_test(
+  "par_c"
+  MYC_SOURCES
+    "par.c"
+  MYC_DEPS
+    "parser"
+  MYC_DEFS
+    "MYC_DEBUG_ENABLE=1"
+)

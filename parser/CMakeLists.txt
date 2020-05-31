@@ -1,0 +1,19 @@
+myc_setup_lib(
+  "parser"
+  MYC_SOURCES
+    "eval.c"
+    "tree.c"
+    "node.c"
+    "node_print.c"
+    "par.c"
+    "parser.c"
+    "prule.c"
+    "grammar.c"
+    "grammar_types.c"
+    "grammar_print.c"
+  MYC_DEPS
+    "scanr"
+    "tokpat"
+)
+
+add_subdirectory("test_parser")

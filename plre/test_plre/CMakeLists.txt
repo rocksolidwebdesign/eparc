@@ -1,0 +1,11 @@
+myc_setup_test(
+  "plre"
+  MYC_SOURCES
+    "plre.c"
+  MYC_DEPS
+    "plre"
+  MYC_DEFS
+    "PCRE2_NEVER_UCP"
+    "PCRE2_CODE_UNIT_WIDTH=8"
+    "PCRE2_NEVER_BACKSLASH_C"
+)
