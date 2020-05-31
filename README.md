@@ -97,5 +97,4 @@ Tests may be run with valgrind for memory leak checking.
 
 ```
 cmake -DCMAKE_BUILD_TYPE=Debug -DENABLE_VALGRIND=ON ../eparc
-cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_VALGRIND=OFF ../eparc
 ```
